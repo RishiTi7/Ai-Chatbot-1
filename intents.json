@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "whats up?",
+        "how is it going?"
+      ],
+      "responses": ["Hello!", "Hey!", "What can i do for you?"]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you later",
+        "goodbye",
+        "i am leaving",
+        "have a good day",
+        "bye",
+        "see ya"
+      ],
+      "responses": ["Sad to see you go", "Goodbye", "Ttly"]
+    },
+
+    {
+      "tag": "age",
+      "patterns": [
+        "how old",
+        "how old is rishi",
+        "what is your age",
+        "who is your owner",
+        "how old are you",
+        "age"
+      ],
+      "responses": ["21 years", "my owner is Rishi", "21 years old"]
+    },
+
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should i call you",
+        "whats your name",
+        "who are you",
+        "can you tell me your name"
+      ],
+      "responses": [
+        "You can call me neural",
+        "I'm nueral",
+        "I'm Nueral assistant of Rishi"
+      ]
+    },
+
+    {
+      "tag": "shop",
+      "patterns": [
+        "id like to buy something",
+        "what are your products",
+        "what do you reccomend",
+        "what are you selling"
+      ],
+      "responses": [
+        "Nueral sells toys",
+        "We have ben 10 toys",
+        "Our best seller is sigma"
+      ]
+    },
+
+    {
+      "tag": "hours",
+      "patterns": [
+        "when are you guys open",
+        "what are your hours",
+        "hours of opening"
+      ],
+      "responses": ["24/7"]
+    },
+
+    {
+      "tag": "stocks",
+      "patterns": [
+        "what stocks do i own",
+        "show my shares",
+        "what companies i invested in"
+      ],
+      "responses": ["You own ABBV, AAPL, AAPI, NVDA, FB"]
+    }
+  ]
+}
